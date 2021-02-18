@@ -1,0 +1,26 @@
+{
+    "name": "erikfig/starterkit",
+    "description": "",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/jetstream": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ErikFig\\Core\\StarterKit\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ErikFig\\Core\\StarterKit\\Providers\\CoreStarterKitProvider"
+            ]
+        }
+    }
+}
